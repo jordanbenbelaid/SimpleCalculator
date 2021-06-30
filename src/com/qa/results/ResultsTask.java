@@ -6,5 +6,9 @@ public class ResultsTask {
 		ResultsMethods.marksOverall();
 		
 		ResultsMethods.markPercentage();
+		
+//		ResultsMethods.marksOverall(123, 111, 98);
+//		
+//		ResultsMethods.markPercentage(123, 111, 98);
 	}
 }
