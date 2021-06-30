@@ -42,20 +42,16 @@ public class Calculator {
 //			}
 	
 		if(operator == '+') {
-			sum = a + b;
-			System.out.println("\nThe answer is " + sum);
+			System.out.println("\nThe answer is " + CalcFunctions.add(a, b));
 		}
 		else if(operator == '-') {
-			sum = a - b;
-			System.out.println("\nThe answer is " + sum);
+			System.out.println("\nThe answer is " + CalcFunctions.subtract(a, b));
 		}
 		else if(operator == '*') {
-			sum = a * b;
-			System.out.println("\nThe answer is " + sum);
+			System.out.println("\nThe answer is " + CalcFunctions.multiply(a, b));
 		}
 		else if(operator == '/') {
-			sum = a / b;
-			System.out.println("\nThe answer is " + sum);
+			System.out.println("\nThe answer is " + CalcFunctions.divide(a, b));
 		}
 		else {
 			System.out.println("\nINVALID FUNCTION!!!!!!");
